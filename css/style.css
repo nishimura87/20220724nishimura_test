@@ -1,0 +1,186 @@
+.COACH_COSME_info{
+  width: 1300px;
+}
+
+.COACH_COSME_con{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 70px;
+  align-items: center;
+  font-family: 'Amatic SC',cursive;
+  color: rgb(13, 181, 170);
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 50px 0 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.top__firstview{
+  position: relative;
+}
+
+.top__firstview_img{
+  width: 100%;
+  position: absolute;
+}
+
+img {
+  width: 100%;
+}
+
+.firstview__con{
+  position: absolute;
+}
+
+.top__firstview_txt1{
+  font-size: 30px;
+  font-family: 'Shippori Mincho',serif;
+}
+
+.cost-info__info2_clr {
+  margin-top: 20px;
+}
+
+.change__clr1{
+  font-size: 45px;
+  color: rgb(13, 181, 170);
+}
+
+.change__clr2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cost-info {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.cost-info__info1 {
+  height: 90px;
+  width: 100px;
+  border-radius: 50px;
+  background: rgb(244, 9, 118,0.8);
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  line-height: 90px;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.cost-info__info2 {
+  color: rgb(13, 181, 170);
+  margin-left: 10px;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.change__clr3 {
+  color: rgb(244, 9, 118);
+  font-size: 25px;
+}
+
+.change__clr4 {
+  color: rgb(244, 9, 118);
+  font-size: 40px;
+}
+
+.campaign__txt {
+  text-align: center;
+  line-height: 100px;
+  margin-top: 30px;
+  height: 100px;
+  width: 400px;
+  font-size: 23px;
+  background-color: rgb(244, 9, 118,0.8);
+  color: aliceblue;
+  border-radius: 50px;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.trouble__info1 {
+  position: relative;
+  margin-top: 390px;
+  line-height: 120px;
+  height: 120px;
+  font-size: 30px;
+  background: rgb(13, 181, 170);
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.trouble__info1:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 40px solid transparent;
+  border-top: 30px solid rgb(13, 181, 170);
+}
+
+.trouble__info2 {
+  font-size: 40px;
+}
+
+.trouble__point {
+  position: static;
+  display: flex;
+  margin: 50px 200px 0 200px;
+}
+
+.trouble__point_img img{
+  width: 200px;
+  margin-left: 100px;
+}
+
+.trouble__point_item {
+  margin-left: 30px;
+  padding: 30px;
+  height: 200px;
+  width: 350px;
+  border: 1px solid rgb(13, 181, 170);
+  border-radius: 60px;
+}
+
+.trouble__point_info {
+  display: flex;
+  border-bottom: 1px solid rgb(13, 181, 170);
+  font-size: 25px;
+  font-family: 'Shippori Mincho', serif;
+  color: rgb(13, 181, 170);
+  margin-top: 30px;
+  width: 360px;
+}
+
+.care__point {
+  background-color: rgb(13, 181, 170);
+  text-align: center;
+  font-size: 45px;
+  color: aliceblue;
+  font-family: 'Amatic SC', cursive;
+  padding: 30px;
+}
+
+.care__point_margin {
+  margin-top: 20px;
+}
+
+.care__point_ttl_change1 {
+  font-size: 30px;
+}
+
+.care__point_ttl_change2 {
+  color: rgb(244, 9, 118);
+}
+
+.footer {
+  text-align: center;
+  margin: 20px auto;
+}
